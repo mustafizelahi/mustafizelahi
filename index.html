@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0">
+  <title>Syed Mustafiz Elahi - Personal Blog</title>
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <style>
+    body {
+      padding-top: 60px;
+    }
+
+    .navbar {
+      margin-bottom: 20px;
+    }
+
+    .jumbotron {
+      background-image: url('im4.WEBP');
+      background-size: cover;
+      color:#fff
+;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    }
+
+    .blog-post {
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Syed Mustafiz Elahi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main role="main">
+
+    <!-- Jumbotron -->
+    <div class="jumbotron text-center" id="home">
+      <h1 class="display-4">Syed Mustafiz Elahi</h1>
+      <p class="lead">Welcome to my World</p>
+    </div>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Your head content here -->
+
+  <!-- Link Bootstrap CSS -->
+  <!-- Your Bootstrap CSS link here -->
+
+  <!-- Custom CSS -->
+  <style>
+    /* Your custom CSS here */
+  </style>
+</head>
+<body>
+  <!-- Your navigation bar here -->
+
+  <!-- About Section -->
+  <section class="container" id="about">
+    <h2 class="text-center mb-4">About Me</h2>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <!-- Preview content that will be visible initially -->
+        <p class="preview-content">Hey, I am Syed Mustafiz Elahi, a student studying in the 1st year at Sreemangal Govt College in Bangladesh. I have a passion for website development, which allows me to showcase my creativity and technical abilities.</p>
+        <!-- The full content that will be hidden initially -->
+        <div class="full-content" style="display: none;">
+          <p>Hey, I am Syed Mustafiz Elahi, a student studying in the 1st year at Sreemangal Govt College in Bangladesh. I have a passion for website development, which allows me to showcase my creativity and technical abilities. Building websites enables me to express my ideas and design skills, leaving an impact on the digital world. Alongside my academic pursuits, I also have a love for driving cars, which reflects my adventurous spirit and desire to explore new places. As an individual, I demonstrate determination and perseverance, taking on challenges with a solution-oriented approach. I have curiosity and continuously learn and grow. Living in Bangladesh, I feel connected to its rich cultural heritage, which has influenced my values and sense of community. Overall, I am a well-rounded person with a promising future ahead.</p>
+        </div>
+        <!-- "Read More" and "Read Less" buttons to toggle the full content -->
+        <button class="btn btn-link read-more-btn">Read more</button>
+        <button class="btn btn-link read-less-btn" style="display: none;">Read less</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Your blog section and other content here -->
+
+  <!-- Link Bootstrap JS and jQuery -->
+  <!-- Your Bootstrap JS and jQuery links here -->
+
+  <!-- JavaScript for Read More and Read Less functionality -->
+  <script>
+    // Function to toggle the visibility of the full content
+    document.addEventListener("DOMContentLoaded", function () {
+      const readMoreBtns = document.querySelectorAll(".read-more-btn");
+      const readLessBtns = document.querySelectorAll(".read-less-btn");
+
+      readMoreBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          const section = this.closest("section");
+          const previewContent = section.querySelector(".preview-content");
+          const fullContent = section.querySelector(".full-content");
+          previewContent.style.display = "none";
+          fullContent.style.display = "block";
+          btn.style.display = "none";
+          section.querySelector(".read-less-btn").style.display = "inline";
+        });
+      });
+
+      readLessBtns.forEach(function (btn) {
+        btn.addEventListener("click", function () {
+          const section = this.closest("section");
+          const previewContent = section.querySelector(".preview-content");
+          const fullContent = section.querySelector(".full-content");
+          previewContent.style.display = "block";
+          fullContent.style.display = "none";
+          btn.style.display = "none";
+          section.querySelector(".read-more-btn").style.display = "inline";
+        });
+      });
+    });
+  </script>
+</body>
+</html>
+
+</div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Blog Section -->
+<section class="container" id="blog">
+  <h2 class="text-center mb-4">My Blog</h2>
+  <div class="row">
+    <!-- Blog Posts will be added here -->
+    <!-- Example blog post -->
+    <div class="col-md-6 blog-post">
+      <!-- Add your picture here -->
+      
+      <h3>Blog Post Title</h3>
+      <p>Unlocking the Power of Mindfulness: A Guide to Inner Peace"
+.</p> <img src="e1.jpg" alt="Syed Mustafiz Elahi" class="img-fluid mb-3">
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Second Blog Post</title>
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Second Blog Post</h1>
+    <p>etc</p>
+    <img src="im7.jpg" alt="Syed Mustafiz Elahi" class="img-fluid mb-3">
+
+    
+  </div>
+</body>
+</html>
+
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>  Blog Post</title>
+  <!-- Link Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1>Third Blog Post</h1>
+    <p>etc</p>
+    <img src="i5.jpg" alt="Syed Mustafiz Elahi" class="img-fluid mb-3">
+
+    
+  </div>
+  </div>
+</section>
+
+                                                
+  <!-- Contact Section -->
+    <section class="container" id="contact">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="1" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Link Bootstrap JS and jQuery -->
+  <script src="www.syedmustafizelahi@gmail.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="">https://www.facebook.com/mustafiz30/</script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Your head content here -->
+
+  <!-- Link Bootstrap CSS -->
+  <!-- Your Bootstrap CSS link here -->
+
+  <!-- Custom CSS -->
+  <style>
+    /* Your custom CSS here */
+  </style>
+</head>
+<body>
+  <!-- Your navigation bar here -->
+
+  <!-- Your main content here -->
+
+  <!-- Footer Section -->
+  <footer class="bg-dark text-white py-1">
+    <div class="container text-center">
+      <!-- Social Media Links -->
+      <div class="mb-1">
+        <a href="https://www.facebook.com/mustafiz30" target="_blank" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://twitter.com/your_twitter_username" target="_blank" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com/mustafiz_elahi" target="_blank" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+        <!-- Add more social media links here -->
+      </div>
+
+      <!-- Your copyright information -->
+      <p>&copy; 2023 Syed Mustafiz Elahi. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Link Bootstrap JS and jQuery -->
+  <!-- Your Bootstrap JS and jQuery links here -->
+
+  <!-- Link Font Awesome icons -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js"></script>
+
+  <!-- JavaScript for Read More and Read Less functionality -->
+  <script>
+    // Your JavaScript code here
+  </script>
+</body>
+</html>
